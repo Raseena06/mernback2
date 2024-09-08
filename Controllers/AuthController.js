@@ -104,7 +104,7 @@ const forgotPassMail = async (req, res) => {
 
           html: `
                         <p>Click on the following link to reset your password:</p>
-                         <a href="https://mernfront2-im0v.onrender.com/resetPassword/${token}">https://mernfront2-im0v.onrender.com/resetPassword/${token}</a>
+                         <a href="https://mernfront2-im0v.onrender.com/#/resetPassword/${token}">https://mernfront2-im0v.onrender.com/#/resetPassword/${token}</a>
                         <p>The link will expire in 5 minutes.</p>
                         <p>If you didn't request a password reset, please ignore this email.</p>`,
 
